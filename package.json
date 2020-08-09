@@ -1,0 +1,25 @@
+{
+  "name": "hakubot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Beki-G/hakuBot.git"
+  },
+  "author": "Beki-G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beki-g/hakubot/issues"
+  },
+  "homepage": "https://github.com/Beki-g/hakubot#readme",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.6.0"
+  }
+}
