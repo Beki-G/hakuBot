@@ -1,12 +1,12 @@
 const Jikan = require('jikan-node');
-const ji = new Jikan();
+const mal = new Jikan();
 
 module.exports = {
 	name: 'anisearch',
-	description: 'Search for your anime',
+	description: 'Search for anime/manga!',
 	execute(message, args) {
 		console.log(args);
-		ji.search(args[0], args[1])
+		mal.search(args[0], args[1])
 			.then(info=>{
 				const animeList = info.results.map(data => {
 					return `\n**Title**: ${data.title} was found. \n**Description**: ${data.synopsis}`;
